@@ -1,0 +1,78 @@
+/* Global styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header styles */
+
+#header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+/* Navigation styles */
+
+#nav {
+  background-color: #ccc;
+  padding: 20px 0;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav li {
+  float: left;
+  padding: 0 10px;
+}
+
+#nav a {
+  color: #000;
+}
+
+/* Main styles */
+
+#main {
+  padding: 20px 0;
+}
+
+#main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#main th, #main td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+#main th {
+  background-color: #eee;
+}
+
+/* User list styles */
+
+#user-list {
+  margin-bottom: 20px;
+}
+
+#user-list h2 {
+  margin-top: 0;
+}

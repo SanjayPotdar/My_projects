@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+  font-family: 'Croissant One', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 199vh;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  font-family: 'Croissant One', cursive; /* Apply Poppins font to nav */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-content, .hotel-list {
+  text-align: center;
+  padding: 50px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 25%;
+  max-width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Satisfy', cursive; /* Apply Satisfy font to page content */
+}
+
+.page-content h1, .hotel-list h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.page-content div, .hotel-list div {
+  font-size: large;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.page-content label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.page-content select, .page-content input, .hotel-list select, .hotel-list input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to input elements */
+}
+
+button, .hotel-list button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Croissant One', cursive;
+}
+
+button:hover, .hotel-list button:hover {
+  background-color: #021c2d;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  font-size: 120px;
+  display: flex;
+  justify-content: space-between;
+  transform: scale(0.8);
+  margin-right: 5px;
+  font-family: 'Satisfy', cursive; /* Apply Satisfy font to specific elements */
+}
+
+.footer {
+  text-align: center;
+  background-color: #022033;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to the footer */
+}
+
+.footer p {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginb.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="login-as">Login As:</label>
+                <select id="login-as" name="login-as">
+                    <option value="customer">Customer</option>
+                    <option value="business">Business</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 BookMyPlate. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

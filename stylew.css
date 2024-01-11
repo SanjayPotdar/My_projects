@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Croissant One', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url('image1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  /* background-color: #ffde3bce; */
+  background-color: rgba(17, 17, 17, 0.7);
+  padding: -10px;
+  position: sticky; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar img {
+  max-height: 40px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: border-bottom 0.3s ease;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* CSS in stylew.css */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content {
+  padding: 21vh;
+  animation: fadeIn 7s ease-in; /* Single fade-in animation */
+}
+
+.content h1 {
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+}
+
+.content p {
+  font-size: large;
+  color:#efeaea;
+}
+
+.about {
+
+  background-image: url('image3.jpg');
+  padding: 15vh;
+  animation: fadeIn 1.5s ease;
+}
+
+.about h1 {
+  color: #fff;
+  text-align: center;
+  padding: 60px;
+}
+.about ul{
+  color: #fff;
+}
+
+.about p {
+  font-size: large;
+  color: #fff;
+}
+
+#content2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+#content2 h2 {
+  color: #191616;
+}
+
+#content2 p {
+  font-size: large;
+  color: #000000;
+}
+.signup-options {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.signup-options h1 {
+  color: #181717;
+}
+
+.signup-options p {
+  font-size: large;
+}
+
+.signup-options ul {
+  padding: 0;
+  list-style: none;
+}
+
+.signup-options ul li {
+  margin: 10px 0;
+}
+
+.signup-options ul li a {
+  text-decoration: none;
+  color: #07c5a5;
+  font-weight: bold;
+}
+
+.signup-options ul li a:hover {
+  color: #021c2d;
+}
+footer {
+  text-align: center;
+  background-color: #022033;
+  color: #fff;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

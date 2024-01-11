@@ -1,0 +1,255 @@
+/* Reset some default styles */
+*{
+    box-shadow: none;
+    text-shadow: none;
+    text-decoration: none;
+    
+}
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body { 
+    background-image: linear-gradient(to left, #0066ff, #00a2ff);
+    background-position: 0 0, 100% 100%;
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #fffbfb;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#header h1 {
+    font-size: 36px;
+}
+
+/* Navigation styles */
+#nav {
+    background-color: #444;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Main content styles */
+#main {
+    padding: 20px;
+    color: #f7f7f7;
+}
+
+/* Button styles */
+button {
+    background-color: #0033ff; /* Blue color, you can change it */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b2bab; /* Slightly darker blue on hover */}
+
+    /* Style for the specific buttons with the 'action-button' class */
+.action-button {
+    width: 100px    ; /* Allow buttons to adjust their width based on content */
+    height: 40px;
+    display: inline-block; /* Display buttons horizontally */
+    margin-right: 10px; /* Add margin to create spacing between buttons */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    background-color: #0033ff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the specific buttons on hover */
+.action-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* User list table styles */
+#user-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#user-list th, #user-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#user-list th {
+    background-color: #0033ff;
+    color: #fff;
+}
+
+/* Add User form styles */
+#add-user-form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#add-user-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-user-form input[type="text"], input[type="email"], input[type="number"]  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* Logout button styles */
+#logout-button {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+#footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+section
+{
+    margin-top: 0px;
+}
+h1, nav, header,section {
+    background-image: linear-gradient(to left, #0066ff, #00a2ff);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: #fff;
+  }
+  
+  #sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sidebar h2 {
+    font-size: 22px;
+    background-color: #000000;
+    margin-top: 0;
+  }
+
+  #sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  #sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  } 
+    /* Style the radio container */
+    .radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Style the actual radio input */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Style the radio checkmark */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+/* Style the radio checkmark when selected */
+.radio-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Style the radio checkmark's inner circle */
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the radio checkmark's inner circle when selected */
+.radio-container input:checked ~ .checkmark::after {
+    display: block;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+input[type="email"],[type="text"]:not(#new_username) 
+{
+    height: 30px;
+    border-collapse: collapse;
+}
+

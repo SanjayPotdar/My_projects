@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+  font-family: 'Croissant One', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+nav {
+    justify-content: space-between;
+      display: flex;
+      width: 97%;
+      background-color: rgba(17, 17, 17, 0.7);
+      padding: 16px;
+      border-collapse: collapse;
+      border-radius: 10px;
+      margin: 5px;
+  }
+  
+  nav a {
+      color: white;
+      text-decoration: none;
+  }
+
+.menu-container {
+  margin: 56px;
+  text-align: left;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.menu-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.menu-container th, .menu-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-container th:first-child, .menu-container td:first-child {
+  width: 40%;
+}
+
+.menu-container th:nth-child(2), .menu-container td:nth-child(2) {
+  width: 25%;
+}
+
+.menu-container th:nth-child(3), .menu-container td:nth-child(3) {
+  width: 20%;
+}
+
+.menu-container th:nth-child(4), .menu-container td:nth-child(4) {
+  width: 15%;
+}
+
+.menu-container table tr:last-child td {
+  border-bottom: none;
+}
+
+.menu-container table input[type="checkbox"] {
+  margin: auto;
+  display: block;
+}
+
+.menu-container button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-container button:hover {
+  background-color: #021c2d;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #25306d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #097f93;
+}
+
+#total-price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+footer {
+    text-align: center;
+    background-color:  rgba(17, 17, 17, 0.7);
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

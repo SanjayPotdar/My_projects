@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+    font-family: 'Croissant One', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 199vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-content {
+     
+        text-align: left; 
+        padding: 50px;
+        margin: 100px 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 25%;
+        max-width: 400px; 
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    
+    
+}
+
+.page-content h1 {
+    color: #333;
+    margin-bottom: 20px; 
+  }
+
+.page-content div {
+    font-size: large;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.page-content label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.page-content select, .page-content input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #021c2d;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+   .flex  {
+    font-size: 120px;
+    display: flex;
+    justify-content: space-between; 
+    transform: scale(0.8); /* Adjust the scale factor to make them smaller or larger */
+    margin-right: 5px; /* Add some spacing between the radio buttons if needed */
+
+  }
+  
+  .hotel-list {
+    text-align: left;
+    padding: 50px;
+    margin: 100px 164px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .hotel-list h2 {
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  
+  .hotel-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-list th, .hotel-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .hotel-list th:first-child, .hotel-list td:first-child {
+    width: 50%;
+  }
+  
+  .hotel-list th:nth-child(2), .hotel-list td:nth-child(2) {
+    width: 25%;
+  }
+  
+  .hotel-list th:nth-child(3), .hotel-list td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .hotel-list th:nth-child(4), .hotel-list td:nth-child(4) {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .hotel-list button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hotel-list button:hover {
+    background-color: #021c2d;
+  }  
+  
+footer {
+    text-align: center;
+    background-color: #022033;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
